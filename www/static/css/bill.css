@@ -1,0 +1,26 @@
+/*body{
+	padding-top: 100px;
+}*/
+.qty_buttons,.delete_row_bill{
+	cursor: pointer;
+}
+.item_code_bill{
+	width: 20%;
+}
+.item_name_bill{
+	width: 30%;
+}
+.item_qty_bill{
+	width: 15%;
+}
+#item_trash{
+	border-color: #E34724;
+}
+#item_trash:hover{
+	background-color: #E34724;
+	border-color: #E34724;
+}
+#btn_add_row_bill{
+	border-radius: 50px;
+}
+

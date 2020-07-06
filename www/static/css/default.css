@@ -1,0 +1,81 @@
+.upload_error {
+    border: solid 2px red!important;  
+}
+.logo-b-b{
+	background-color :#026465;
+}
+.logo-b-g{
+	background-color :#252525;
+}
+.w{
+	color:white;
+}
+.p{
+	color: pink;
+}
+.b{
+	color:blue;
+}
+.g{
+	color: green;
+}
+.v{
+	color: violet;
+}
+.r{
+	color: red;
+}
+.d-r{
+	color: darkred;
+}
+.o{
+	color: orange;
+}
+.sb{
+	color: skyblue;
+}
+.gr{
+	color:grey;
+}
+.br{
+	color: brown;
+}
+.y{
+	color: yellow;
+}
+.bl{
+	color:black;
+}
+.p_n{
+	color: #bf1e9d;
+}
+.b-bl{
+	background-color: black;
+}
+.green_code_1{
+	color: #9cf206;
+}
+.bro-code{
+	color: #E34724;
+}
+.y-code{
+	color: #FFC107;
+}
+.btn-transparent{
+	background-color:transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.f-15{
+	font-size: 15px;
+}
+.f_18{
+	font-size: 18px;
+}
+.d-b{
+	display: block;
+}
+.d-n{
+	display: none;
+}

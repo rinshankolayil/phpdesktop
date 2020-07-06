@@ -1,0 +1,62 @@
+@media print,screen {
+html, body,#print_div {
+height: 99%;    
+}
+.logo_image{
+width: 70px;
+}
+#print_div table tr th{
+font-size: 9pt;
+}
+#table_item_details tr th,#table_item_details tr td{
+padding: 10px 36px 0 13px;
+}
+#total_table tr th{
+padding: 0px 70px 2px 70px;
+}
+#print_div table tr td,#print_div p,#print_div span{
+font-size: 8pt;
+}
+.center_content{
+width: 100%;
+text-align: center;
+}
+.right_align{
+width: 100%;
+text-align: right;
+}
+#bill_info_table{
+position: relative;
+left: 10px;
+right: 0px;
+}
+.right
+{
+position: relative;
+float: right;
+}
+.left{
+position: relative;
+float: left;
+}
+hr{
+width: 90%;
+}
+}
+@page {
+size: A5;
+margin: 0;
+}
+page[size="A4"] {
+width: 8cm;
+display: block;
+margin: 0 auto;
+margin-bottom: 0.5cm;
+box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+@media print {
+body, page[size="A4"] {
+margin: 0;
+box-shadow: 0;
+}
+}
